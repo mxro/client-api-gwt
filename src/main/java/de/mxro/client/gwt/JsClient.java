@@ -11,6 +11,7 @@ import de.mxro.metrics.js.JsMetricsNode;
 @Export
 public class JsClient implements Exportable {
 
+    @NoExport
     private Client wrapped;
 
     @Export
