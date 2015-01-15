@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='clientgwt'>
+	
+	<inherits name='de.mxro.metrics.js.MetricsJs' /> 
+
+
+	<source path=''>
+		<exclude name="**/jre/**" />
+	</source>
+
+</module>
