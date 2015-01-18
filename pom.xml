@@ -3,6 +3,7 @@
 	<artifactId>client-api-gwt</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
 	<description>Bundle of useful tools for building hybrid Java/JavaScript applications with GWT.</description>
+	
 	<url>https://github.com/mxro/client-api-gwt</url>
 	<properties>
 		<module.gwtVersion>2.5.1</module.gwtVersion>
