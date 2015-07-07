@@ -3,7 +3,7 @@
 	
 	<inherits name='de.mxro.metrics.js.MetricsJs' /> 
 	<inherits name='de.mxro.log.js.LogsJs' /> 
-	<inherits name='de.mxro.client.Client' /> 
+	<inherits name='de.mxro.client.BasicClient' /> 
 
 
 	<source path=''>

@@ -4,7 +4,7 @@ import org.timepedia.exporter.client.Export;
 import org.timepedia.exporter.client.Exportable;
 import org.timepedia.exporter.client.NoExport;
 
-import de.mxro.client.Client;
+import de.mxro.client.BasicClient;
 import de.mxro.log.js.JsLogsNode;
 import de.mxro.metrics.js.JsMetricsNode;
 
@@ -12,7 +12,7 @@ import de.mxro.metrics.js.JsMetricsNode;
 public class JsClient implements Exportable {
 
     @NoExport
-    private Client wrapped;
+    private BasicClient wrapped;
 
     @Export
     public JsMetricsNode metrics() {
@@ -25,7 +25,7 @@ public class JsClient implements Exportable {
     }
 
     @NoExport
-    public static JsClient wrap(final Client client) {
+    public static JsClient wrap(final BasicClient client) {
         final JsClient clientJs = new JsClient();
 
         clientJs.wrapped = client;
