@@ -27,8 +27,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>de.mxro.log.js</groupId>
-			<artifactId>logs-js</artifactId>
+			<groupId>org.javadelight</groupId>
+			<artifactId>delight-log-js</artifactId>
 			<version>0.0.2</version>
 		</dependency>
 
